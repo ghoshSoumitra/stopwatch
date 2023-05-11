@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Source+Serif+Pro&display=swap');
+body {
+    background: linear-gradient(to right, antiquewhite, cadetblue);
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    align-items: center;
+    height: 99vh;
+    font-size: 16px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    /* width: 45vw; */
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* background: linear-gradient(to top, cadetblue, antiquewhite 96%); */
+}
+
+.digit-container {
+    margin: 0px 10px;
+}
+
+.digit {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.time-label {
+    font-size: 2rem;
+}
+
+.button-container {
+    justify-content: space-around;
+    display: flex;
+}
+
+.btn {
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 39px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    padding: 12px;
+    margin: 10px;
+    max-width: 100px;
+    min-width: 70px;
+    width: 100%;
+}
+
+.btn:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#start {
+    background-color: Green;
+}
+
+#stop {
+    background-color: yellow;
+}
+
+#reset {
+    background-color: red;
+}
+
+.text-align-center {
+    text-align: center;
+}
